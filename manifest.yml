@@ -1,0 +1,6 @@
+applications:
+- path: .
+  name: v2fly
+  random-route: true
+  buildpack: go_buildpack
+  memory: 256M
