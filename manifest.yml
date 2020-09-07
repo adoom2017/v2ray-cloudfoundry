@@ -1,6 +1,6 @@
 applications:
 - path: .
-  name: v2fly
+  name: v2ray
   random-route: false
   buildpack: go_buildpack
   command: ./v2ray/v2ray -config ./v2ray/config.json
